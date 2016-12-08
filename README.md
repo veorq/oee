@@ -27,7 +27,12 @@ Specifically:
 
 * OEE software is safe, because it's coded in **Rust**
 
-* OEE is **gluten-free** and **non-GMO**
+* OEE is **gluten-free** and **non-GMO** (and 99% vegan)
+
+* OEE protects from **cyber APT**
+
+* OEE is **provably secure** and **formally verified** by cryptographers
+  with PhDs
 
 
 To try OEE, use our reference implementation:
