@@ -1,0 +1,13 @@
+[package]
+name = "oee"
+version = "0.1.0"
+authors = ["JP Aumasson <jeanphilippe.aumasson@gmail.com>"]
+
+[[bin]]
+name = "oee"
+path = "oee.rs"
+
+[dependencies]
+rand = "0.3"
+
+
