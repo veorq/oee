@@ -27,6 +27,8 @@ Specifically:
 
 * OEE software is safe, because it's coded in **Rust**
 
+* OEE is **gluten-free**
+
 
 To try OEE, use our reference implementation:
 
