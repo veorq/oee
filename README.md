@@ -28,6 +28,10 @@ Specifically:
 * OEE software is safe, because it's coded in **Rust**
 
 
+To try OEE, use our reference implementation:
 
+```
+cargo run file-to-encrypt
+```
 
 
