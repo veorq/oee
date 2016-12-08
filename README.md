@@ -34,6 +34,8 @@ Specifically:
 * OEE is **provably secure** and **formally verified** by cryptographers
   with PhDs
 
+* OEE is **constant-time** and **leakage-resilient**
+
 
 To try OEE, use our reference implementation:
 
