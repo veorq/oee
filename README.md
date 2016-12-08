@@ -38,6 +38,10 @@ Specifically:
 
 * OEE is **asymptotically maximally memory-hard**
 
+* OEE has **optimal rigidity**
+
+* OEE has **no backdoor** (really)
+
 To try OEE, use our reference implementation:
 
 ```
