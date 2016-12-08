@@ -40,7 +40,22 @@ Specifically:
 
 * OEE has **optimal rigidity**
 
-* OEE has **no backdoor** (really)
+* OEE has **no backdoor** (really) and **no front door either**, so the FBI can't use that. 
+  There are also no windows, skylights, cat flaps, gates or other ingress points for human-sized 
+  lifeforms or lifeforms trained by humans to retrieve cryptographic keys with warrants.
+
+* OEE has **no less than 5 (five) rachets**. It can self-heal its self healing properties 
+  and contains a built in copy of Whitfield Diffie and Martin Hellman in case we ever need to 
+  reinvent key exchange.
+
+* OEE is based on **really-really-really-twisted edwards curves**. Have you ever left ethernet cables 
+  in a big pile for a year and then tried to untangle them? That's how twisted this curve is. 
+  This is the kind of twist-security DJB dreams about.
+
+* OEE **is upset its author did not base it on lattices** as RLWE is the new hotness.
+
+* OEE **is meta-data free** by design. Who can reconstruct your social graph when you only 
+encrypt at one end?
 
 To try OEE, use our reference implementation:
 
