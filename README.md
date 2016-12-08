@@ -36,6 +36,7 @@ Specifically:
 
 * OEE is **constant-time** and **leakage-resilient**
 
+* OEE is **asymptotically maximally memory-hard**
 
 To try OEE, use our reference implementation:
 
