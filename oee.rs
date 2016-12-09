@@ -16,5 +16,5 @@ fn main() {
     let mut cyphertext = [0u8; CYPHERBYTES];
     rng.fill_bytes(&mut cyphertext);
     for x in &cyphertext { print!("{:02x}", *x); }
-    println!()
+    println!("")
 }
