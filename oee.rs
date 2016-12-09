@@ -33,15 +33,18 @@ fn main() {
 	inplace = true;
     }
 
-    let mut rng = rand::thread_rng();
+    let mut csprng = match rand::OsRng::new() {
+        Ok(g) => g,
+        Err(e) => panic!("cyber attack detected:  {}", e)
+    };
 
     let mut cyphertext = [0u8; CYPHERBYTES];
-    rng.fill_bytes(&mut cyphertext);
+    csprng.fill_bytes(&mut cyphertext);
 
     if inplace {
         save(args[2].as_str(), &cyphertext);
     } else {
         for x in &cyphertext { print!("{:02x}", *x); }
-        println!("")
+        println!("");
     }
 }
