@@ -11,10 +11,13 @@ fn main() {
         return
     }
 
-    let mut rng = rand::thread_rng();
+    let mut csprng = match rand::OsRng::new() {
+        Ok(g) => g,
+        Err(e) => panic!("Could not find a cryptographically-secure PRNG on the system. Details: {}", e)
+    };
 
     let mut cyphertext = [0u8; CYPHERBYTES];
-    rng.fill_bytes(&mut cyphertext);
+    csprng.fill_bytes(&mut cyphertext);
     for x in &cyphertext { print!("{:02x}", *x); }
     println!("")
 }
