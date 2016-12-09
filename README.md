@@ -55,10 +55,9 @@ Specifically:
 * OEE **is upset its author did not base it on lattices** as RLWE is the new hotness.
 
 * OEE **is meta-data free** by design. Who can reconstruct your social graph when you only 
+encrypt at one end?
 
 * OEE supports **In-Place** ciphering for the **Very-Braves**
-
-encrypt at one end?
 
 To try OEE, use our reference implementation:
 
