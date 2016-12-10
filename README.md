@@ -34,7 +34,9 @@ Specifically:
 * OEE is **provably secure** and **formally verified** by cryptographers
   with PhDs
 
-* OEE is **constant-time** and **leakage-resilient**
+* OEE is **constant-time** and **leakage-resilient**. Unlike other supposedly “constant-time”
+  implementations, the runtime of OEE doesn't depend on the input length and is therefore actually
+  constant-time.
 
 * OEE is **asymptotically maximally memory-hard**
 
