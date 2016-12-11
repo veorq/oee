@@ -37,7 +37,7 @@ Specifically:
 
 * OEE has **no backdoor** (really) and **no front door either**, so the
   FBI can't use that. There are also no windows, skylights, cat flaps,
-  gates or other ingress points for human-sized lifeforms or lifeforms
+  gates, or other ingress points for human-sized lifeforms or lifeforms
   trained by humans to retrieve cryptographic keys with warrants
 
 
