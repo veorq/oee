@@ -10,12 +10,12 @@ const CYPHERBYTES: usize = 32;
 fn save(fname: &str, buffer: &[u8]) {
     let mut f = match File::create(fname) {
         Ok(file) => file,
-        Err(e) => { panic!("Error creating file: {}", e.description()); },
+        Err(e) => { panic!("error creating file: {}", e.description()); },
     };
 
     match f.write(buffer) {
         Ok(_) => return,
-        Err(e) => { panic!("Error writing file: {}", e.description()); },
+        Err(e) => { panic!("error writing file: {}", e.description()); },
     };
 }
 

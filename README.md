@@ -11,17 +11,13 @@ Specifically:
 * OEE is **secure against hostile endpoints**, while end-to-end encryption
   is only secure against hostile networks
 
-* OEE guarantees total **forward secrecy**, **backward secrecy**, and
-  **frontward secrecy**, meaning that your messages are safe against
-  future, past, and present attacks
-
 * OEE is **post-quantum**, quantum-safe, quantum-resilient 
 
 * OEE is secure even if **P=NP**, even alien technologies won't break OEE
 
-* OEE is **post-Snowden** and **NSA-proof**
-
 * OEE is secure against **anthropic computing** attacks
+
+* OEE is **post-Snowden** and **NSA-proof**
 
 * OEE is **memory-efficient**, with terabytes of data encrypted into a
   32-byte ciphertext
@@ -32,13 +28,17 @@ Specifically:
 
 * OEE is **provably secure** 
 
-* OEE is **constant-time** and **leakage-resilient**. Unlike other
-  “constant-time” implementations, the runtime of OEE doesn't depend on
-  the input length and is therefore actually constant-time.
+* OEE is fully **constant-time**: the runtime of OEE doesn't depend on
+  the input length 
 
-* OEE has **no backdoor** (really) and **no front door either**, so the FBI can't use that. 
-  There are also no windows, skylights, cat flaps, gates or other ingress points for human-sized 
-  lifeforms or lifeforms trained by humans to retrieve cryptographic keys with warrants.
+* OEE guarantees total **forward secrecy**, **backward secrecy**, and
+  **frontward secrecy**, meaning that your messages are safe against
+  future, past, and present attacks
+
+* OEE has **no backdoor** (really) and **no front door either**, so the
+  FBI can't use that. There are also no windows, skylights, cat flaps,
+  gates or other ingress points for human-sized lifeforms or lifeforms
+  trained by humans to retrieve cryptographic keys with warrants
 
 
 To try OEE, use our reference implementation:
