@@ -30,6 +30,8 @@ Specifically:
 
 * OEE is fully **constant-time**: the runtime of OEE doesn't depend on
   the input length 
+  
+* OEE is **Theresa May approved**
 
 * OEE guarantees total **forward secrecy**, **backward secrecy**, and
   **frontward secrecy**, meaning that your messages are safe against
