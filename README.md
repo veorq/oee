@@ -33,6 +33,9 @@ Specifically:
   
 * OEE is **Theresa May approved**
 
+* OEE is **The language of god**. All spiritual teachings are essentially
+  the output of OEE.
+
 * OEE guarantees total **forward secrecy**, **backward secrecy**, and
   **frontward secrecy**, meaning that your messages are safe against
   future, past, and present attacks
