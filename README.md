@@ -1,5 +1,7 @@
 # One-End Encryption (OEE): Stronger than End-to-End Encryption
 
+JPHash: http://dev.pywaves.org/assets/CVaG5MZTLQ88WU1qVv4wXrfoEFXupoNEq77kv6XgqKeL
+
 Today everybody uses end-to-end encryption, but it's not secure enough
 for you! Powerful state-sponsored attackers have the ability to break
 end-to-end encryption. **One-end encryption** (OEE) solves the problem, by
