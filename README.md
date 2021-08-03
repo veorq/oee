@@ -42,6 +42,7 @@ Specifically:
   gates, or other ingress points for human-sized lifeforms or lifeforms
   trained by humans to retrieve cryptographic keys with warrants
 
+* OEE **passed security audits** with flying colors
 
 To try OEE, use our reference implementation:
 
