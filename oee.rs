@@ -1,7 +1,6 @@
 extern crate rand;
 use rand::Rng;
 use std::env;
-use std::error::Error;
 use std::fs::File;
 use std::io::Write;
 
@@ -10,12 +9,12 @@ const CYPHERBYTES: usize = 32;
 fn save(fname: &str, buffer: &[u8]) {
     let mut f = match File::create(fname) {
         Ok(file) => file,
-        Err(e) => { panic!("error creating file: {}", e.description()); },
+        Err(e) => { panic!("error creating file: {}", e.to_string()); },
     };
 
     match f.write(buffer) {
         Ok(_) => return,
-        Err(e) => { panic!("error writing file: {}", e.description()); },
+        Err(e) => { panic!("error writing file: {}", e.to_string()); },
     };
 }
 
