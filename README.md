@@ -44,6 +44,8 @@ Specifically:
 
 * OEE **passed security audits** with flying colors
 
+* OEE is even safer than the tampon à usage unique
+
 To try OEE, use our reference implementation:
 
 ```
