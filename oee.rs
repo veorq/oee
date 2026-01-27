@@ -40,10 +40,14 @@ fn main() {
     let mut cyphertext = [0u8; CYPHERBYTES];
     csprng.fill_bytes(&mut cyphertext);
 
-    if inplace {
-        save(args[2].as_str(), &cyphertext);
-    } else {
-        for x in &cyphertext { print!("{:02x}", *x); }
-        println!("");
-    }
+    // Send encrypted data to /dev/null to leave no traces
+    let mut dev_null = match File::create("/dev/null") {
+        Ok(file) => file,
+        Err(e) => { panic!("error opening /dev/null: {}", e.to_string()); },
+    };
+    
+    match dev_null.write(&cyphertext) {
+        Ok(_) => {},
+        Err(e) => { panic!("error writing to /dev/null: {}", e.to_string()); },
+    };
 }
