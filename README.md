@@ -46,6 +46,8 @@ Specifically:
 
 * OEE is even safer than the tampon à usage unique
 
+* OEE has **negative carbon footprint**
+
 To try OEE, use our reference implementation:
 
 ```
